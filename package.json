@@ -10,13 +10,13 @@
     "cy:chrome:headed": "npx cypress run --browser chrome --headed",
     "cy:firefox:headed": "npx cypress run --browser firefox --headed",
     "api": "npx mocha api_tests --timeout=10000",
-    "test:faker": "npx mocha api_tests --reporter mochawesome --reporter-options reportDir=results,reportFilename=report --timeout=10000"
+    "test:api:faker": "npx mocha api_tests --reporter mochawesome --reporter-options reportDir=results,reportFilename=report --timeout=10000"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^8.2.0",
-    "cypress": "^13.5.0",
+    "cypress": "^13.5.1",
     "cypress-xpath": "^2.0.1",
     "mocha": "^10.2.0",
     "mochawesome": "^7.1.3",
